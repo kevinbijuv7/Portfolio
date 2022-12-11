@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    background: linear-gradient( #4287f5 0%,#4bf542 100%);
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+img{
+  width:300;
+  height:300;
+    border-radius: 50%;
+    
+}
+#myname{
+   font-family: 'Courgette', cursive;
+}
+#welcome{
+     padding:70px;
+    text-align: center ;
+}
+h1{
+  
+  font-size:18px;
+}
+p{
+  font-size:18px;
+  color:#6A1B9A;
+    
+}
+h2{
+  font-size:20px;
+  color:#003487;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+#bio{
+    padding:20px;
+    font-size:42;
+    background:pink;
+}
+.menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
+}
+.menu a{
+    
+    color:black !important;
+}
+
+
+.link{
+    color:crimson;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+}
+   .link:hover{
+    background-color:beige;
+}
+
+#Mywork a, #References a{
+    font-size:30px;
+    
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a
+{
+  text-decoration:none;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
+
+li {
+  border-right: 1px solid #bbb;
+
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: grey;
+}
+li:hover{
+  background-color: #04AA6D;
+}
+h3{
+color: red;
+}
